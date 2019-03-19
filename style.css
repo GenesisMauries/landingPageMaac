@@ -1,3 +1,21 @@
+body{
+    background-image: url('./assets/bg-home.jpg');
+    padding-top: 200px;
+    position: relative;
+}
+body header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+    background-color: black;
+}
+h1, h4, h5{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
 #title-description{
     position: relative;
 }
@@ -6,7 +24,6 @@
     left: 90%;
     top: 10%;
 }
-#services .container .row .img-equipo{
-    width: 550px;
-    height: 300px;
+#footer{
+    background-color: black;
 }
